@@ -1,0 +1,10 @@
+numpy
+open3d
+scikit-image
+plyfile
+scikit-learn
+imagecodecs
+rasterio
+PySide2
+tqdm
+matplotlib
