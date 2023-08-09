@@ -11,8 +11,7 @@ from functools import partial
 from multiprocessing.pool import ThreadPool as TPool
 
 import Metashape as M
-license_path = "C:/Users/jordan.pierce/Documents/Metashape.lic"
-M.License().activate(open(license_path).readlines()[0])
+M.License().activate(os.getenv('METASHAPE_LICENSE'))
 
 # -----------------------------------------------------------------------------
 # Functions
