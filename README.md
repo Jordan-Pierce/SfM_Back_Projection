@@ -16,6 +16,13 @@ Additionally, if a mesh exists, the labels can be transferred to the vertices wi
 by simply using the `colorize vertices` tool within Metashape, using the dense point cloud as a 
 source. 
 
+Please note that this workflow was inspired by the following publication:
+
+```python
+de Oliveira, L.M. et al. (2022) ‘High-resolution 3D mapping of cold-water coral reefs using machine 
+learning’, Frontiers in Environmental Science, 10. doi:10.3389/fenvs.2022.1044706. 
+```
+
 ##### Below is a brief summary of the process:
 
 1. Go through SfM workflow, creating the sparse, and the dense point cloud
@@ -27,8 +34,8 @@ source.
 7. This script will create a labeled training point cloud, and a classified dense point cloud (.ply file)
 8. Import these into Metashape or any other 3D data viewing platform (e.g., VISCORE)
 
-Please review the instructions on [Installation](./Tutorials/Installation_Guide.md), and the detailed description of 
-the [Workflow](./Tutorials/Workflow.md) before attempting.
+Please review the instructions on [Installation](./Tutorials/Installation_Guide.md), 
+and the detailed description of the [Workflow](./Tutorials/Workflow.md) before attempting.
 
 ### Point Clouds
 
