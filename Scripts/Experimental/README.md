@@ -1,4 +1,7 @@
-### Classifying 3D Models by Back-Projecting and Projecting Labels
+# Classifying 3D Models by Back-Projecting and Projecting Labels
+
+**Cool idea, needs work though; process of back-projecting labels back to images from source model
+is slow using Metashape API**
 
 This repository is used classify 3D models (point clouds, meshes) 
 created in Agisoft Metashape. The process is described below:
@@ -31,4 +34,3 @@ created classified versions. This process is done entirely in Metashape.
 <p align="center">
   <img src="./Figures/mesh_rotation.gif" alt="">
 </p>
-
